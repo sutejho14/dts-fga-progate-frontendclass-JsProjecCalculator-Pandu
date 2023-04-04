@@ -1,52 +1,61 @@
+/* Defines the styles for the calculator container */
 .calculator {
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 200px ;
-    width: 400px;
+    text-align: center; /* centers the content horizontally */
+    margin: 0 auto; /* centers the container horizontally */
+    padding-top: 200px ; /* adds top padding to the container */
+    width: 400px; /* sets the width of the container */
 }
 
+/* Defines the styles for the calculator screen */
 .calculator-screen {
-    width: 100%;
-    height: 100px;
-    background-color: #252525;
-    color: #fff;
-    text-align: right;
-    font-size: 36px;
-    border: none;
-    padding: 0 20px;
-    box-sizing: border-box;
+    width: 100%; /* sets the width of the screen to 100% */
+    height: 100px; /* sets the height of the screen to 100px */
+    background-color: #252525; /* sets the background color of the screen */
+    color: #fff; /* sets the color of the text on the screen */
+    text-align: right; /* aligns the text on the right side of the screen */
+    font-size: 36px; /* sets the font size of the text on the screen */
+    border: none; /* removes the border around the screen */
+    padding: 0 20px; /* adds padding to the screen */
+    box-sizing: border-box; /* includes padding and border in the total width of the screen */
 }
 
+/* Defines the styles for the calculator keys */
 .calculator-keys {
-    width: 100%;
+    width: 100%; /* sets the width of the calculator keys to 100% */
 }
 
+/* Defines the styles for each row of calculator keys */
 .row {
-    display: flex;
+    display: flex; /* displays the row as a flex container */
 }
 
+/* Defines the styles for each button */
 button {
-    height: 80px;
-    background-color: gray;
-    border: 1px solid black;
-    font-size: 32px;
-    color: #fff;
-    width: 25%;
-    outline: none;
+    height: 80px; /* sets the height of each button to 80px */
+    background-color: gray; /* sets the background color of each button */
+    border: 1px solid black; /* adds a black border around each button */
+    font-size: 32px; /* sets the font size of the text on each button */
+    color: #fff; /* sets the color of the text on each button */
+    width: 25%; /* sets the width of each button to 25% */
+    outline: none; /* removes the outline around each button when clicked */
 }
 
+/* Defines the styles for the all-clear and zero buttons */
 .all-clear, .zero-btn {
-    width: 50%;
+    width: 50%; /* sets the width of the all-clear and zero buttons to 50% */
 }
 
+/* Defines the styles for the operator and equal-sign buttons */
 .operator, .equal-sign {
-    background-color: orange;
+    background-color: orange; /* sets the background color of the operator and equal-sign buttons */
 }
 
+/* Defines the styles for the hover effect on buttons */
 button:hover {
-    background-color: darkgray;
+    background-color: darkgray; /* sets the background color of the button on hover */
 }
 
+/* Defines the styles for the hover effect on operator and equal-sign buttons */
 .operator:hover, .equal-sign:hover {
-    background-color: darkorange;
+    background-color: darkorange; /* sets the background color of the operator and equal-sign buttons on hover */
 }
